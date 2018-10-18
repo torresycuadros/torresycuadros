@@ -1,0 +1,212 @@
+body{
+    overflow: hidden;
+}
+/* Portada */
+.navegacion{
+    width: 100%;
+    background-color: white;
+    font-family: 'Gugi', cursive;
+}
+
+.navegacion li{
+    list-style: none;
+}
+
+/* .navegacion li a{
+
+} */
+.navbar{
+    z-index: 9999;
+}
+
+.navegacion li a img{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.4s;
+}
+.navegacion li a:hover{
+    transform: scale(1.1);
+}
+
+.container-portada {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    animation: movimiento 10s linear infinite alternate;
+    position: relative;
+}
+.degradado {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, rgb(255, 87, 10));
+    opacity: 0.5;
+}
+
+.text-naranja{
+    color: rgb(233, 119, 25);
+    font-size: 1em;
+}
+
+.completo{
+    width: 100%;
+    height: 100vh;
+}
+
+.relative{
+  position: relative;
+}
+
+.containet-details {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.details {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.details h1 {
+    font-size: 40px;
+}
+
+.hov {
+    transition: all 0.3s;
+}
+
+.hov:hover {
+    transform: scale(1.1);
+}
+
+.completo{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.completo iframe{
+    padding-top: 106px;
+}
+.nav-2{
+    height: 30px;
+}
+.nav-2 UL{
+    height: 30px;
+}
+.nav-2 li{
+    list-style: none;
+}
+.nav-2 li a:hover{
+    text-decoration: underline;
+}
+
+
+.card-margin{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    margin-left: 4%;
+    margin-right: 4%;
+    background: #fff;
+    z-index: 1;
+    -webkit-border-radius: 0 0 .25rem .25rem;
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.contacto{
+    font-family: 'Lato', sans-serif;
+    border-left: black 2px solid;
+}
+
+.contacto h3{
+    font-size: 1.3rem;
+}
+
+.contacto p{
+    font-size: .65rem;
+    line-height: .75rem;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }
+    to {
+        background-position: top right;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .navegacion{
+        background-color: transparent;
+        position: relative;
+        width: 350px;
+        margin: auto;
+        height: 370px;
+        margin-bottom: 8vh;
+    }
+    .container-portada{
+        animation: movimiento 20s linear infinite alternate;
+    }
+    .navegacion li a h3{
+        color: white;
+        font-size: .8rem;
+    }
+    .navegacion li a{
+        width: 134px;
+    }
+    #btn-arrendatarios{
+        position: absolute;
+        left: 110px;
+        top: 20px;
+    }
+    #btn-servicios{
+        position: absolute;
+
+        right: 0;
+        top: 80px
+    }
+    #btn-propietarios{
+        position: absolute;
+        top: 80px
+    }
+    #btn-inmuebles{
+        position: absolute;
+        left: 110px;
+        top: 40%;
+    }
+    #btn-pse{
+        position: absolute;
+        right: 0;
+        bottom: 80px;
+    }
+    #btn-empleados{
+        position: absolute;
+        bottom: 80px;
+    }
+    #btn-mantenimientos{
+        position: absolute;
+        left: 110px;
+        bottom: 20px; 
+    }
+    .completo iframe {
+        padding-top: 92px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 379px) {
+    .contacto h3{
+        font-size: 1rem;
+    }
+    .contacto p{
+        font-size: .45rem;
+        line-height: .5rem;        
+    }
+}
