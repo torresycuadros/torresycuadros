@@ -54,7 +54,10 @@ body{
 
 .completo{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 105px);
+    margin-top: 105px;
+    
+    overflow: hidden;
 }
 
 .relative{
@@ -88,11 +91,6 @@ body{
     transform: scale(1.1);
 }
 
-.completo{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
 .completo iframe{
     padding-top: 106px;
 }
