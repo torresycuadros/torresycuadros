@@ -54,8 +54,8 @@ body{
 
 .completo{
     width: 100%;
-    height: calc(100vh - 105px);
-    margin-top: 105px;
+    height: calc(100vh - 130px);
+    margin-top: 130px;
     
     overflow: hidden;
 }
@@ -124,13 +124,47 @@ body{
     border-left: black 2px solid;
 }
 
+.orange.darken-3 {
+    position: absolute;
+    top: 100px;
+}
+
 .contacto h3{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 .contacto p{
-    font-size: .65rem;
-    line-height: .75rem;
+    font-size: .8rem;
+    line-height: .9rem;
+}
+
+.navbar img {
+    width: 172px;
+}
+
+.contacto {
+    padding-top: .4em;
+    height: 70px;
+}
+
+.contacto h3 {
+    padding-bottom: .1em;
+}
+
+.btn-emergente {
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+#btn-empleados:hover .btn-emergente1 {
+    transform: translateY(-100px)
+}
+
+#btn-empleados:hover .btn-emergente2 {
+    transform: translateY(-190px)
 }
 
 @keyframes movimiento {
@@ -207,4 +241,21 @@ body{
         font-size: .45rem;
         line-height: .5rem;        
     }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+    .navbar img{
+        width: 150px;
+    }
+    .mb-xs-1 {
+        margin-bottom: .25rem;
+    }
+    
+    .contacto>h3 {
+        padding-bottom: .25em;
+        font-size: 1.7em;
+    }
+    /* .contacto>p {
+        font-size: .7rem;
+    } */
 }
