@@ -158,7 +158,8 @@ body {
 	padding-bottom: .1em;
 }
 
-#btn-empleados {
+#btn-empleados,
+#btn-inmuebles {
 	position: relative;
 }
 
@@ -169,16 +170,34 @@ body {
 	z-index: -1;
 	transition: all 0.3s;
 	visibility: hidden;
+	opacity: 0;
+}
+
+.btn-emergente0 {
+	left: -1em;
+	bottom: -10px;
+}
+
+.btn-emergente0 h3 {
+	width: 8em;
 }
 
 #btn-empleados:hover .btn-emergente1 {
 	transform: translate(-50px, -100px);
 	visibility: visible;
+	opacity: 1;
 }
 
 #btn-empleados:hover .btn-emergente2 {
 	transform: translate(50px, -100px);
 	visibility: visible;
+	opacity: 1;
+}
+
+#btn-inmuebles:hover .btn-emergente0 {
+	transform: translateY(-105px);
+	visibility: visible;
+	opacity: 1;
 }
 
 @keyframes movimiento {
@@ -214,11 +233,15 @@ body {
 		width: 134px;
 	}
 
-	#btn-arrendatarios {
+	#btn-inmuebles {
 		position: absolute;
 		left: 110px;
 		top: 20px;
 	}
+
+	#btn-inmuebles:hover .btn-emergente0 {
+		transform: translateY(-98px);
+}
 
 	#btn-servicios {
 		position: absolute;
@@ -232,7 +255,7 @@ body {
 		top: 80px
 	}
 
-	#btn-inmuebles {
+	#btn-arrendatarios {
 		position: absolute;
 		left: 110px;
 		top: 40%;
