@@ -174,7 +174,7 @@ body {
 }
 
 .btn-emergente0 {
-	left: -1em;
+	left: -4em;
 	bottom: -10px;
 }
 
@@ -195,7 +195,7 @@ body {
 }
 
 #btn-inmuebles:hover .btn-emergente0 {
-	transform: translateY(-105px);
+	transform: translateY(-108px);
 	visibility: visible;
 	opacity: 1;
 }
@@ -233,15 +233,26 @@ body {
 		width: 134px;
 	}
 
-	#btn-inmuebles {
+	#btn-arrendatarios {
 		position: absolute;
 		left: 110px;
 		top: 20px;
 	}
 
-	#btn-inmuebles:hover .btn-emergente0 {
+	#btn-inmuebles .btn-emergente0 {
 		transform: translateY(-98px);
-}
+		visibility: initial;
+		opacity: 1;
+		left: 1em;
+	}
+
+	#btn-inmuebles .btn-emergente0 h3 {
+		display: none;
+	}
+
+	#btn-inmuebles .btn-emergente0 img {
+		width: 110px;
+	}
 
 	#btn-servicios {
 		position: absolute;
@@ -255,7 +266,7 @@ body {
 		top: 80px
 	}
 
-	#btn-arrendatarios {
+	#btn-inmuebles {
 		position: absolute;
 		left: 110px;
 		top: 40%;
