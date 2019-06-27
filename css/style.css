@@ -244,6 +244,7 @@ body {
 		visibility: initial;
 		opacity: 1;
 		left: 1em;
+		bottom: -1em;
 	}
 
 	#btn-inmuebles .btn-emergente0 h3 {
