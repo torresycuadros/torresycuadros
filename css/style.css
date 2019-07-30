@@ -55,12 +55,20 @@ body {
 	font-size: 1em;
 }
 
+a.text-naranja:hover {
+	color: rgb(187, 95, 20);
+}
+
 .completo {
 	width: 100%;
 	height: calc(100vh - 130px);
 	margin-top: 130px;
 
 	overflow: hidden;
+}
+
+.scroll {
+	overflow: auto;
 }
 
 .relative {
@@ -209,6 +217,11 @@ body {
 		background-position: top right;
 	}
 }
+
+
+/* #JrFQZPV-1563925909169 {
+	bottom: 3em !important;
+} */
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
 	.navegacion {
