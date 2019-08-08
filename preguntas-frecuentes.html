@@ -19,6 +19,17 @@
 	<link href="css/mdb.min.css" rel="stylesheet">
 	<!-- Your custom styles -->
 	<link href="css/style.css" rel="stylesheet">
+
+	<style>
+		.rotate-icon {
+			transition: all 0.3s;
+			transform: rotate(0);
+		}
+		
+		.collapsed .rotate-icon {
+			transform: rotate(180deg);
+		}
+	</style>
 </head>
 
 <body>
@@ -27,8 +38,7 @@
 			<nav class="navbar navbar-expand-xl navbar-light bg-white fixed-top">
 				<div class="navbar-brand mr-0" href="index.html">
 					<a href="index.html"><img src="img/logo/Imagen1.png" alt="Torres y cuadros" class="mb-xs-1"></a>
-					<br><a class="text-dark font-weight-bold" href="tel:+031794364">PBX: 7 943 643 <i
-							class="fas fa-phone"></i></a>
+					<br><a class="text-dark font-weight-bold" Preguntashref="tel:0317943643">PBX: 7 943 643 <i class="fas fa-phone"></i></a>
 				</div>
 				<div class="contacto pl-2 font-weight-bold">
 					<h3 class="text-dark mb-0">Inmobiliaria</h3>
@@ -58,7 +68,7 @@
 								target="_blank">Inmuebles</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+							<a class="nav-link" href="preguntas-frecuentes.html">Preguntas</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="https://www.e-collect.com/customers/Torresycuadros.htm" target="_blank">Pagos
@@ -83,7 +93,7 @@
 					<li class="mt-1"><a class="text-white" href="index.html"> Inicio </a></li>
 					<p class="m-1"> / </p>
 					<li class="mt-1">
-						<p> Preguntas frecuentes </p>
+						<p> Preguntas </p>
 					</li>
 				</ul>
 			</div>
@@ -102,7 +112,7 @@
 							<a class="text-naranja font-weight-bold" data-toggle="collapse" href="#collapse96" aria-expanded="true"
 								aria-controls="collapse96">
 								Prospectos Interesados
-								<i class="fas fa-angle-down rotate-icon float-right"></i>
+								<i class="fas fa-angle-up rotate-icon float-right"></i>
 							</a>
 						</h5>
 					</div>
@@ -121,7 +131,7 @@
 											aria-controls="collapseOne1-1">
 											<h5 class="mb-0 text-naranja">
 												Estoy interesado en una oferta que consulte por Internet o vi el aviso en sitio
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -130,7 +140,7 @@
 									<div id="collapseOne1-1" class="collapse" role="tabpanel" aria-labelledby="headingOne1"
 										data-parent="#accordionEx">
 										<div class="card-body">
-											Puede comunicarse a nuestro <a href="tel:0317943643">PBX: 7943643</a> opcion 1 ,con gusto
+											Puede comunicarse a nuestro <a href="tel:0317943643">PBX: 7943643</a> opcion 1 , con gusto
 											agendaremos una cita para que conozca el
 											inmueble.
 										</div>
@@ -148,7 +158,7 @@
 											aria-expanded="false" aria-controls="collapseTwo1-2">
 											<h5 class="mb-0 text-naranja">
 												Estoy interesado en tomar en arriendo un inmueble
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -158,7 +168,7 @@
 										data-parent="#accordionEx">
 										<div class="card-body">
 											Enviaremos a su correo toda la informacion sobre la documentacion que debe anexar en pdf tanto del
-											arrendatario como del deudor solidario,formularios para la solicitud de arrendamiento,costos y
+											arrendatario como del deudor solidario, formularios para la solicitud de arrendamiento, costos y
 											requisitos.Al recepcionar su solicitud completa en 8 horas tenemos respuesta y luego procederemos
 											con la
 											elaboracion del contrato de arrendamiento.
@@ -177,7 +187,7 @@
 											aria-expanded="false" aria-controls="collapseThree1-3">
 											<h5 class="mb-0 text-naranja">
 												Ya salio aprobada mi solicitud de arrendamiento, que debo hacer?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -186,7 +196,7 @@
 									<div id="collapseThree1-3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
 										data-parent="#accordionEx">
 										<div class="card-body">
-											Nuestra area comercial esta pendiente de estos seguimientos,una vez sale aprobada la solicitud le
+											Nuestra area comercial esta pendiente de estos seguimientos, una vez sale aprobada la solicitud le
 											notifica
 											al arrendatario que se procedera con la elaboracion del contrato de arrendamiento y la
 											coordinacion de la
@@ -210,7 +220,7 @@
 							<a class="text-naranja font-weight-bold " data-toggle="collapse" href="#collapse97" aria-expanded="false"
 								aria-controls="collapse97">
 								Para Arrendatarios
-								<i class="fas fa-angle-down rotate-icon float-right"></i>
+								<i class="fas fa-angle-up rotate-icon float-right"></i>
 							</a>
 						</h5>
 					</div>
@@ -229,7 +239,7 @@
 											aria-controls="collapseOne2-1">
 											<h5 class="mb-0 text-naranja">
 												Como consulto mi factura
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -261,7 +271,7 @@
 											aria-expanded="false" aria-controls="collapseTwo2-2">
 											<h5 class="mb-0 text-naranja">
 												Como pago mi factura
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -275,7 +285,7 @@
 											de
 											identificación del arrendatario, selecciona la factura y realiza su pago en línea.O por la opcion
 											de
-											ARRENDATARIOS ingresa con el número de cédula del arrendatario ,descarga la factura y la imprime
+											ARRENDATARIOS ingresa con el número de cédula del arrendatario , descarga la factura y la imprime
 											en una
 											impresoa Laser y presenta su factura en el banco de BOGOTA o banco AV-VILLAS.
 										</div>
@@ -293,7 +303,7 @@
 											aria-expanded="false" aria-controls="collapseThree2-3">
 											<h5 class="mb-0 text-naranja">
 												Estoy en el Banco y no me reciben la Factura
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -305,7 +315,7 @@
 											Puede ser que no imprimio la factura en una impresora laser para que indentifique el codigo de
 											barras .
 											<br />
-											Debe revisar la fecha limite de pago ,si la fecha esta vencida en el codigo de barras ,no le
+											Debe revisar la fecha limite de pago , si la fecha esta vencida en el codigo de barras , no le
 											recibiran la
 											factura. <br />
 											Puede estar pagando en horario adicional y el banco registra la operación con la fecha del
@@ -326,7 +336,7 @@
 											aria-expanded="false" aria-controls="collapseThree2-4">
 											<h5 class="mb-0 text-naranja">
 												Por que el valor de mi factura puede variar ?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -335,15 +345,14 @@
 									<div id="collapseThree2-4" class="collapse" role="tabpanel" aria-labelledby="headingThree-1-3"
 										data-parent="#accordionEx-1">
 										<div class="card-body">
-											Si cancela despues del quinto dia calendario ,hay recargos por pagos extemporaneos. <br />
-											Tambien pueden presentarse otros cargos como sanciones por uso de garaje de visitantes,sanciones
+											Si cancela despues del quinto dia calendario , hay recargos por pagos extemporaneos. <br />
+											Tambien pueden presentarse otros cargos como sanciones por uso de garaje de visitantes, sanciones
 											por
 											convivencia o cualquier sancion que se derive del no cumplimiento del reglamento de propiedad
 											horizontal
 											<br />
 											Por los reajustes de la cuota de administracion aprobados en la asamblea general en el mes de
-											Marzo
-											,reajustes que aplica retroactivos a Enero ,febrero y Marzo. <br />
+											Marzo, reajustes que aplica retroactivos a Enero, febrero y Marzo. <br />
 											Porque se aplicaron novedades de descuento según reporte del arrendatario. <br />
 										</div>
 									</div>
@@ -360,7 +369,7 @@
 											aria-expanded="false" aria-controls="collapseThree2-5">
 											<h5 class="mb-0 text-naranja">
 												Hay un cargo fijo en mi factura
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -371,7 +380,7 @@
 										<div class="card-body">
 											Si este corresponde a los gastos bancarios que deduce el banco por identificar que tercero realiza
 											el
-											pago ,bien sea por codigo de barras o PSE.
+											pago, bien sea por codigo de barras o PSE.
 										</div>
 									</div>
 
@@ -388,7 +397,7 @@
 											<h5 class="mb-0 text-naranja">
 												Que debo hacer si llegan facturas de servicios publicos que no me corresponden por periodo de
 												ocupacion?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -417,8 +426,8 @@
 										<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx-1" href="#collapseThree2-7"
 											aria-expanded="false" aria-controls="collapseThree2-7">
 											<h5 class="mb-0 text-naranja">
-												Recibo cuentas de cobro de la administracion , que debo hacer?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												Recibo cuentas de cobro de la administracion, que debo hacer?
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -427,9 +436,9 @@
 									<div id="collapseThree2-7" class="collapse" role="tabpanel" aria-labelledby="headingThree-1-3"
 										data-parent="#accordionEx-1">
 										<div class="card-body">
-											Por favor dejelas en el casillero,recuerde que en su factura de arrendamiento ya esta incluida el
+											Por favor dejelas en el casillero, recuerde que en su factura de arrendamiento ya esta incluida el
 											valor de
-											la administracion,entonces usted no debe cancelar ningun valor directo a la administracion.
+											la administracion, entonces usted no debe cancelar ningun valor directo a la administracion.
 										</div>
 									</div>
 
@@ -445,7 +454,7 @@
 											aria-expanded="false" aria-controls="collapseThree2-8">
 											<h5 class="mb-0 text-naranja">
 												La cuenta de cobro de la administracion trae saldos anteriores, que debo hacer?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -473,8 +482,8 @@
 										<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx-1" href="#collapseThree2-9"
 											aria-expanded="false" aria-controls="collapseThree2-9">
 											<h5 class="mb-0 text-naranja">
-												Recibo impuestos prediales ,o cuentas de valorizacion, que debo hacer?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												Recibo impuestos prediales, o cuentas de valorizacion, que debo hacer?
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -503,7 +512,7 @@
 											aria-expanded="false" aria-controls="collapseThree2-10">
 											<h5 class="mb-0 text-naranja">
 												Debo reportar un arreglo locativo sobre el inmueble que tengo en arriendo
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -533,7 +542,7 @@
 											aria-expanded="false" aria-controls="collapseThree2-100">
 											<h5 class="mb-0 text-naranja">
 												No voy a renovar el contrato de arrendamiento, que debo hacer?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -563,7 +572,7 @@
 											aria-expanded="false" aria-controls="collapseThree2-11">
 											<h5 class="mb-0 text-naranja">
 												Ya constitui el deposito de servicios publicos, que debo hacer?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -592,7 +601,7 @@
 											aria-expanded="false" aria-controls="collapseThree2-12">
 											<h5 class="mb-0 text-naranja">
 												Como debo hacer la devolucion del inmueble que tengo en arriendo?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -603,7 +612,7 @@
 										<div class="card-body">
 											El arrendatario debera entregar el inmueble conforme al inventario inicial de Entrega y en el
 											mismo estado
-											en que lo recibio ,si estaba recien pintado asi mismo debera restituirlo.Por favor consultar el
+											en que lo recibio, si estaba recien pintado asi mismo debera restituirlo.Por favor consultar el
 											Instructivo de entrega fisica inmueble
 										</div>
 									</div>
@@ -619,8 +628,8 @@
 										<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx-1" href="#collapseThree2-13"
 											aria-expanded="false" aria-controls="collapseThree2-13">
 											<h5 class="mb-0 text-naranja">
-												No puedo entregar el inmueble a la fecha de finalizacion del contrato , que pasa?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												No puedo entregar el inmueble a la fecha de finalizacion del contrato, que pasa?
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -649,7 +658,7 @@
 							<a class="text-naranja font-weight-bold " data-toggle="collapse" href="#collapse98" aria-expanded="false"
 								aria-controls="collapse98">
 								Para propietarios
-								<i class="fas fa-angle-down rotate-icon float-right"></i>
+								<i class="fas fa-angle-up rotate-icon float-right"></i>
 							</a>
 						</h5>
 					</div>
@@ -668,7 +677,7 @@
 											aria-controls="collapseOne3-1">
 											<h5 class="mb-0 text-naranja">
 												Consigne mi inmueble a la Inmobilairia no se que ha pasado?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -677,10 +686,10 @@
 									<div id="collapseOne3-1" class="collapse" role="tabpanel" aria-labelledby="headingOne3"
 										data-parent="#accordionEx-3">
 										<div class="card-body">
-											• Una vez su inmueble ingresa a nuestro inventario ,le enviamos un correo confirmandole la
+											• Una vez su inmueble ingresa a nuestro inventario, le enviamos un correo confirmandole la
 											publicacion de
 											su inmueble. <br />
-											• Cada mes le estaremos enviando reportes de gestion ,sobre la promocion de su inmueble,citas y
+											• Cada mes le estaremos enviando reportes de gestion, sobre la promocion de su inmueble, citas y
 											llamadas y
 											sugiriendole estrategias para la colocacion de su inmueble en el corto plazo.
 										</div>
@@ -698,7 +707,7 @@
 											aria-expanded="false" aria-controls="collapseTwo3-2">
 											<h5 class="mb-0 text-naranja">
 												Que pasa cuando ya arrendaron mi inmueble?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -707,7 +716,7 @@
 									<div id="collapseTwo3-2" class="collapse" role="tabpanel" aria-labelledby="headingTwo3"
 										data-parent="#accordionEx-3">
 										<div class="card-body">
-											Le enviaremos el contrato de administracion inmobiliaria para que sea firmado por las partes ,y se
+											Le enviaremos el contrato de administracion inmobiliaria para que sea firmado por las partes, y se
 											aclaren
 											las inquietudes sobre la operatividad de la administracion.
 										</div>
@@ -725,7 +734,7 @@
 											aria-expanded="false" aria-controls="collapseThree3-3">
 											<h5 class="mb-0 text-naranja">
 												Cuando veo reflejado mi pago?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -734,8 +743,8 @@
 									<div id="collapseThree3-3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
 										data-parent="#accordionEx-3">
 										<div class="card-body">
-											Al final de cada mes,mes vencido.Usted ingresara a nuestra pagina web <a
-												href="mailto:info@torresycuadros.com">www.torresycuadros.com</a> ,en la opcion de propietario
+											Al final de cada mes, mes vencido.Usted ingresara a nuestra pagina web <a
+												href="mailto:info@torresycuadros.com">www.torresycuadros.com</a>, en la opcion de propietario
 											ingresa y
 											consulta su extracto de propietario.
 										</div>
@@ -753,7 +762,7 @@
 											aria-expanded="false" aria-controls="collapseThree3-4">
 											<h5 class="mb-0 text-naranja">
 												Quien debe pagar la administracion de mi inmueble arrendado?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -762,7 +771,7 @@
 									<div id="collapseThree3-4" class="collapse" role="tabpanel" aria-labelledby="headingThree4"
 										data-parent="#accordionEx-3">
 										<div class="card-body">
-											Nosotros ,como arrendadores la recaudamos y la pagamos.
+											Nosotros, como arrendadores la recaudamos y la pagamos.
 										</div>
 									</div>
 
@@ -778,7 +787,7 @@
 											aria-expanded="false" aria-controls="collapseThree3-5">
 											<h5 class="mb-0 text-naranja">
 												La cuenta de cobro de la administracion trae saldos anteriores, que debo hacer?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -805,7 +814,7 @@
 											aria-expanded="false" aria-controls="collapseThree3-6">
 											<h5 class="mb-0 text-naranja">
 												La cuenta de cobro de la administracion trae retroactivos de administracion, que debo hacer?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -835,7 +844,7 @@
 											aria-expanded="false" aria-controls="collapseThree3-7">
 											<h5 class="mb-0 text-naranja">
 												La cuenta de cobro de la administracion trae cuotas extraordinarias de administracion ?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -863,8 +872,8 @@
 										<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx-3" href="#collapseThree3-8"
 											aria-expanded="false" aria-controls="collapseThree3-8">
 											<h5 class="mb-0 text-naranja">
-												Esta programada la asamblea general en la copropiedad,la inmobilairia me representa?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												Esta programada la asamblea general en la copropiedad, la inmobilairia me representa?
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -873,7 +882,7 @@
 									<div id="collapseThree3-8" class="collapse" role="tabpanel" aria-labelledby="headingThree8"
 										data-parent="#accordionEx-3">
 										<div class="card-body">
-											No señor propietario ,este servicio no esta incluido en el servicio de administracion de su
+											No señor propietario, este servicio no esta incluido en el servicio de administracion de su
 											inmueble.
 										</div>
 									</div>
@@ -890,7 +899,7 @@
 											aria-expanded="false" aria-controls="collapseThree3-9">
 											<h5 class="mb-0 text-naranja">
 												Consulto mi extracto y veo un menor valor consignado?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>
@@ -899,11 +908,11 @@
 									<div id="collapseThree3-9" class="collapse" role="tabpanel" aria-labelledby="headingThree9"
 										data-parent="#accordionEx-3">
 										<div class="card-body">
-											Puede contactarnos por nuestro servicio chat en linea habilitado en nuestra pagina web,enviarnos
+											Puede contactarnos por nuestro servicio chat en linea habilitado en nuestra pagina web, enviarnos
 											un correo
 											a <a href="mailto:info@torresycuadros.com">info@torresycuadros.com</a> o comunicarse a nuestro <a
 												href="tel:0317943643">PBX: 7943643</a>
-											opcion 2 ,nuestra area administrativa con gusto resolvera sus inquietudes.
+											opcion 2, nuestra area administrativa con gusto resolvera sus inquietudes.
 										</div>
 									</div>
 
@@ -918,8 +927,8 @@
 										<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx-3" href="#collapseThree3-10"
 											aria-expanded="false" aria-controls="collapseThree3-10">
 											<h5 class="mb-0 text-naranja">
-												Me deben reintegrar un valor ,en que momento se vera reflejado?
-												<i class="fas fa-angle-down rotate-icon float-right"></i>
+												Me deben reintegrar un valor, en que momento se vera reflejado?
+												<i class="fas fa-angle-up rotate-icon float-right"></i>
 											</h5>
 										</a>
 									</div>

@@ -186,6 +186,10 @@ a.text-naranja:hover {
 	bottom: -10px;
 }
 
+.btn-emergente-pr {
+	left: -2em;
+}
+
 .btn-emergente0 h3 {
 	width: 8em;
 }
@@ -202,7 +206,8 @@ a.text-naranja:hover {
 	opacity: 1;
 }
 
-#btn-inmuebles:hover .btn-emergente0 {
+#btn-inmuebles:hover .btn-emergente0,
+#btn-mantenimientos:hover .btn-emergente0 {
 	transform: translateY(-108px);
 	visibility: visible;
 	opacity: 1;
