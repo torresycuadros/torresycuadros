@@ -225,7 +225,7 @@
 							</a>
 						</h5>
 					</div>
-					<div id="collapse97" class="collapse" role="tabpanel" aria-labelledby="heading97"
+					<div id="collapse97" class="collapse show" role="tabpanel" aria-labelledby="heading97"
 						data-parent="#accordionEx23">
 						<div class="card-body">
 							<!--Accordion wrapper-->
@@ -285,7 +285,7 @@
 									</div>
 
 									<!-- Card body -->
-									<div id="collapseTwo2-2" class="collapse" role="tabpanel" aria-labelledby="headingTwo-1-2"
+									<div id="collapseTwo2-2" class="collapse show" role="tabpanel" aria-labelledby="headingTwo-1-2"
 										data-parent="#accordionEx-1">
 										<div class="card-body">
 											El pago puede realizarlo a traves de nuestra página web <a href="www.torresycuadros.com"
@@ -1002,7 +1002,41 @@
 
 	</main>
 
+<!-- Button trigger modal-->
+<button id="btnmodalYT" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalYT" style="display: none;">Launch modal</button>
+<!--Modal: modalYT-->
+<div class="modal fade" id="modalYT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
 
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+
+        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ttN3OMShqX0"
+            allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+        <span class="mr-4">Como hacer su pago por PSE</span>
+        <button type="button" class="btn btn-outline-warning btn-rounded btn-md ml-4"
+          data-dismiss="modal">Close</button>
+
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+<!--Modal: modalYT-->
 
 	<!-- Mensaje de en construccion -->
 	<div class="modal fade" id="en-construccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -1061,6 +1095,10 @@
 			s1.setAttribute('crossorigin', '*');
 			s0.parentNode.insertBefore(s1, s0);
 		})();
+
+		document.addEventListener('DOMContentLoaded', () => {
+			document.getElementById('btnmodalYT').click()
+		})
 	</script>
 	<!--End of Tawk.to Script-->
 </body>
