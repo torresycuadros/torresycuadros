@@ -69,7 +69,7 @@
 								target="_blank">Inmuebles</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="preguntas-frecuentes.html">Preguntas</a>
+							<a class="nav-link" href="preguntas-frecuentes.html">FAQ</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="https://www.e-collect.com/customers/Torresycuadros.htm" target="_blank">Pagos
@@ -94,7 +94,7 @@
 					<li class="mt-1"><a class="text-white" href="index.html"> Inicio </a></li>
 					<p class="m-1"> / </p>
 					<li class="mt-1">
-						<p> Preguntas </p>
+						<p> FAQ </p>
 					</li>
 				</ul>
 			</div>
@@ -256,14 +256,17 @@
 											ingresa con el número de cédula del arrendatario y
 											clave 0000.(al ingresar por primera vez se le pedirá que asigne una nueva clave de mínimo seis
 											caracteres utilizando letras y números)
+											<button type="button" class="btn w-50 p-0 d-block mx-auto waves-effect waves-light" data-toggle="modal" data-target="#codigoDeBarras">
+												<img src="img/video/tutorial.png" alt="Video tutorial" class="img-fluid">
+											</button>
 
 											<!-- <video src="video/Codigo de barrasCodigo de barras_1.mp4" controls class="w-100"
 												style="margin-top: 1em;box-shadow: 4px 4px 8px black;"></video> -->
-											<div class="iframe-container">
+											<!-- <div class="iframe-container">
 												<iframe src="https://www.youtube.com/embed/2ILHsBrfiM4" class="pt-0" frameborder="0"
 													allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 													allowfullscreen></iframe>
-											</div>
+											</div> -->
 										</div>
 									</div>
 
@@ -294,11 +297,14 @@
 											opcion de ARRENDATARIOS ingresa con el número de cédula del arrendatario , descarga la factura y
 											la imprime en una impresoa Laser y presenta su factura en el banco de BOGOTA o banco AV-VILLAS.
 
-											<div class="iframe-container">
+											<button type="button" class="btn w-50 p-0 d-block mx-auto waves-effect waves-light" data-toggle="modal" data-target="#pagoPSE">
+												<img src="img/video/tutorial.png" alt="Video tutorial" class="img-fluid">
+											</button>
+											<!-- <div class="iframe-container">
 												<iframe src="https://www.youtube.com/embed/ttN3OMShqX0" class="pt-0" frameborder="0"
 													allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 													allowfullscreen></iframe>
-											</div>
+											</div> -->
 										</div>
 									</div>
 
@@ -673,7 +679,7 @@
 							</a>
 						</h5>
 					</div>
-					<div id="collapse98" class="collapse show" role="tabpanel" aria-labelledby="heading98"
+					<div id="collapse98" class="collapse" role="tabpanel" aria-labelledby="heading98"
 						data-parent="#accordionEx23">
 						<div class="card-body">
 							<!--Accordion wrapper-->
@@ -695,16 +701,19 @@
 									</div>
 
 									<!-- Card body -->
-									<div id="collapseOne3-1" class="collapse show" role="tabpanel" aria-labelledby="headingOne3"
+									<div id="collapseOne3-1" class="collapse" role="tabpanel" aria-labelledby="headingOne3"
 										data-parent="#accordionEx-3">
 										<div class="card-body">
 											<!-- <video src="video/Propietarios.mp4" controls class="w-100"
 												style="margin-top: 1em;box-shadow: 4px 4px 8px black;"></video> -->
-											<div class="iframe-container">
+												<button type="button" class="btn w-50 p-0 d-block mx-auto waves-effect waves-light" data-toggle="modal" data-target="#btnpropietario">
+													<img src="img/video/tutorial.png" alt="Video tutorial" class="img-fluid">
+												</button>
+											<!-- <div class="iframe-container">
 												<iframe src="https://www.youtube.com/embed/q2muhMCGrRY" frameborder="0" class="pt-0"
 													allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 													allowfullscreen></iframe>
-											</div>
+											</div> -->
 										</div>
 									</div>
 
@@ -1002,10 +1011,78 @@
 
 	</main>
 
+<!--Modal: pagoPSE-->
+<div class="modal fade" id="pagoPSE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+
+        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ttN3OMShqX0"
+            allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+        <span class="mr-4">Como hacer su pago por PSE</span>
+        <button type="button" class="btn btn-outline-warning btn-rounded btn-md ml-4"
+          data-dismiss="modal">Close</button>
+
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+<!--Modal: pagoPSE-->
+
+<!--Modal: codigoDeBarras-->
+<div class="modal fade" id="codigoDeBarras" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+
+        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2ILHsBrfiM4"
+            allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+        <span class="mr-4">Como Descargar su código de barras</span>
+        <button type="button" class="btn btn-outline-warning btn-rounded btn-md ml-4"
+          data-dismiss="modal">Close</button>
+
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+<!--Modal: codigoDeBarras-->
+
 <!-- Button trigger modal-->
-<button id="btnmodalYT" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalYT" style="display: none;">Launch modal</button>
-<!--Modal: modalYT-->
-<div class="modal fade" id="modalYT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<button id="btnpropietario" type="button" class="btn btn-primary" data-toggle="modal" data-target="#propietario" style="display: none;">Launch modal</button>
+<!--Modal: propietario-->
+<div class="modal fade" id="propietario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
 
@@ -1036,7 +1113,7 @@
 
   </div>
 </div>
-<!--Modal: modalYT-->
+<!--Modal: propietario-->
 
 	<!-- Mensaje de en construccion -->
 	<div class="modal fade" id="en-construccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -1097,8 +1174,8 @@
 		})();
 
 		document.addEventListener('DOMContentLoaded', () => {
-			document.getElementById('btnmodalYT').click()
-		})
+			document.getElementById('btnpropietario').click()
+		});
 	</script>
 	<!--End of Tawk.to Script-->
 </body>
