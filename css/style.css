@@ -213,6 +213,26 @@ a.text-naranja:hover {
 	opacity: 1;
 }
 
+.btn-whatsapp {
+	position: fixed;
+	top: calc(50vh - 25px);
+	left: 1.5em;
+	z-index: 10000;
+	transition: transform 0.3s;
+}
+
+.btn-whatsapp:hover {
+	transform: scale(1.05);
+}
+
+.btn-whatsapp:active {
+	transform: scale(0.98);
+}
+
+.btn-whatsapp>img{
+	height: 50px;
+}
+
 @keyframes movimiento {
 	from {
 		background-position: bottom left;
@@ -326,6 +346,11 @@ a.text-naranja:hover {
 
 	.navbar-toggler {
 		margin-left: auto;
+	}
+
+	.btn-whatsapp {
+		top: auto;
+		bottom: 3em;
 	}
 }
 
